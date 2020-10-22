@@ -1,0 +1,11 @@
+@import "../../node_modules/bulma/bulma.sass";
+
+input.ng-dirty {
+  &.ng-valid {
+    @extend .is-success;
+  }
+
+  &.ng-invalid {
+    @extend .is-danger;
+  }
+}

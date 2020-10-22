@@ -1,0 +1,16 @@
+<header class="navbar has-shadow is-spaced">
+  <div class="container">
+    <nav class="navbar-menu" role="navigation">
+      <ul class="navbar-start">
+        <li *ngFor="let item of menuItems">
+          <a
+            class="navbar-item"
+            [routerLink]="[item.link]"
+            routerLinkActive="is-active"
+            >{{ item.label }}</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
