@@ -16,7 +16,6 @@ const PASSWORD_REGEX = `^(?=.*?[A-Z])(?=.*?[a-z]).{0,}$`;
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SignupComponent {

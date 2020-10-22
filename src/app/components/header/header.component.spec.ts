@@ -21,4 +21,8 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have menu items defined', () => {
+    expect(component.menuItems).not.toBeUndefined();
+  });
 });
